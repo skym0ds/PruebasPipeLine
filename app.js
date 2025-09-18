@@ -9,6 +9,7 @@ app.use(express.json());
 // Página principal con los dos formularios
 app.get('/', (req, res) => {
   res.send(`
+    <h1>PRUEBAS DE PIPELINE</h1>
     <h2>Funcionalidad 1: Evaluar número</h2>
     <form action="/evaluar" method="post">
       <label>Ingresa un número:</label>
