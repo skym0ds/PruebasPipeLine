@@ -32,11 +32,11 @@ app.post('/evaluar', (req, res) => {
   let mensaje = '';
 
   if (numero > 0) {
-    mensaje = `El número ${numero} es positivo ✅`;
+    mensaje = `El número ${numero} es positivo `;
   } else if (numero < 0) {
-    mensaje = `El número ${numero} es negativo ❌`;
+    mensaje = `El número ${numero} es negativo `;
   } else {
-    mensaje = 'El número es cero ⚖️';
+    mensaje = 'El número es cero ';
   }
 
   res.send(mensaje);
